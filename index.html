@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZIL</title>
+</head>
+
+<style>
+  :root {
+    --primary-text: #455880;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  .custom-font {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--primary-text);
+  }
+
+  .nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .app_logo {
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+    color: white;
+  }
+
+  .contact_btn {
+    background: #ffb400;
+    border: #ffb400;
+    border-radius: 50px;
+    padding: 5px 3px;
+    color: #e5e5e5;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    outline: none;
+    width: 140px;
+  }
+
+  .menu_links {
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu_links a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .menu_links a:nth-child(2) {
+    margin: 1rem;
+  }
+
+  .body_container {
+    background-image: url("assets/images/bg.png");
+    height: 80vh;
+  }
+
+  .welcome_text {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 105%;
+    padding-top: 10px;
+    text-align: center;
+    color: #1e266d;
+  }
+
+  .text_info {
+    text-align: center;
+    color: #242223;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  .link_buttons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .support_btn {
+    background: #ffb400;
+    border-radius: 50px;
+    width: 200px;
+    padding: 16px 12px;
+    margin-right: 1rem;
+    border: #ffb400;
+    font-size: 0.95em;
+  }
+
+  .policy_btn {
+    background: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
+    width: 140px;
+    padding: 16px 12px;
+    border: #ffffff;
+    font-size: 0.95em;
+  }
+
+  .sub_graphic {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+  }
+
+  .disclaimer {
+    color: red;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-size: 24px;
+    padding-top: 5px;
+    text-align: center;
+  }
+
+  .font-bold {
+    font-weight: bolder;
+  }
+
+  .app_footer {
+    background: linear-gradient(rgb(231, 231, 239) 0%, rgb(244, 244, 250) 5%, rgb(255, 255, 255) 10%);
+    padding: 32px 0px;
+  }
+
+  .app_footer>div {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 8px;
+  }
+</style>
+
+<body>
+  <div class="nav">
+    <div class="logo">
+      <img src="assets/images/zil_logo.png" alt="ZIL Logo" class="app_logo" />
+    </div>
+    <div class="menu_links">
+      <a href="./refund_policy.html" class="custom-font"> Refund Policy</a>
+      <a href="./payment_option.html" class="custom-font"> Payment Options</a>
+    </div>
+    <div>
+      <button type="button" class="contact_btn">
+        <a href="./support.html" style="color: #ffffff">Contact Us </a>
+      </button>
+    </div>
+  </div>
+  <section class="body_container">
+    <div class="welcome_text">
+      <p>Welcome to ZIL</p>
+    </div>
+
+    <div class="text_info">
+      ZIL Enterprise Private Limited is interconnecting customer and suppliers for general medical supplies, for
+      efficient and prompt distribution
+      with rapid delivery.
+    </div>
+
+    <div class="link_buttons">
+      <div>
+        <button type="button" class="support_btn">
+          <a href="./terms_condition.html" style="color: #000000">Terms and Conditions </a>
+        </button>
+      </div>
+      <div>
+        <button type="button" class="policy_btn">
+          <a href="./privacy_policy.html" style="color: #455880">Privacy Policy</a>
+        </button>
+      </div>
+    </div>
+
+    <div class="sub_graphic">
+      <!-- <img src="assets/images/sub_graphic.png" class="" /> -->
+    </div>
+  </section>
+
+
+  <footer class="app_footer">
+    <div style="font-size: 16px; line-height: 16px; color: grey;">Copyright © 2022 ZIL Enterprise Pvt. Ltd. All rights
+      reserved.
+    </div>
+  </footer>
+</body>
+
+
+</html>
